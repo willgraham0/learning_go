@@ -1,0 +1,37 @@
+Moore's law is an empirical relationship which states that transistor density
+- the number of transistors per unit volume on an integrated circuit -
+doubles every 2 years. It has been shown to be true over the period of
+1975 to 2012. However, over recent years the rate has been slowing down.
+
+In order to increase transistor density, the physical size of transistors
+has been reducing. Decreasing the physical size has consequences other than
+increasing the number that you can fit on a board, one of which is the power
+consumption. This is given below:
+
+P = alpha * C * F *V^2
+
+Where:
+P = power
+alpha = % of time switching
+C = capacitance
+F = clock frequency
+V = voltage swing
+
+Dennard Scaling states that as the size of a transistor reduces its power
+consumption also decreases. The capacitance reduces with size as well as
+the necessary voltage swing to switch the transistor's state. If the
+clock frequency and the percentage of time switching does not change then
+a large power reduction is achieved. This fact has allowed Moore's law
+to hold true for 40 years.
+
+Dennard Scaling has reached its limit, however. There is a minimum threshold
+voltage that must be maintained regardless of size. Additionally the signal
+to noise ratio is ever increasing causing interference problems and leakage power
+means power consumption cannot continue to be reduced.
+
+The problem this raises is that as the transistor density increases the power
+consumption is increasing. This increases heat production which must be removed
+to prevent damage to the circuit board. Heat removal has been acheived by
+using fans and liquid cooling systems but these have their limits too.
+
+This has led to the use of multiple cores and the idea of parallel computing.
